@@ -1,0 +1,16 @@
+Code segment
+              Assume cs:code
+        Start:Mov    ax,2000h
+              Mov    ss,ax
+              Mov    sp,0
+              Add    sp,4
+              Pop    ax
+              Pop    bx
+              Push   ax
+              Push   bx
+              Pop    ax
+              Pop    bx
+              Mov    ah,4ch
+              Int    21h
+Code ends
+End start
