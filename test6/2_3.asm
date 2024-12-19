@@ -12,7 +12,7 @@ code ends
 ;主函数-----------------------------------------
 Code segment
 main proc far
-             assume cs:Code ss:stack ds:data
+assume cs:Code ss:stack ds:data
     ;清屏
              mov    ah,6
              mov    al,0
