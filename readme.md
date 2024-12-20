@@ -4,3 +4,7 @@ welcome to my code
 ```asm
 add mul div sub mov lea push pop inc dec cmp jmp call ret
 ```
+标志寄存器
+```asm
+
+```
